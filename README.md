@@ -71,15 +71,15 @@ This project was designed with **real pharmacy workflows** in mind:
 
 | Login Screen | Register Invoice | Inventory Display |
 |--------------|------------------|-------------------|
-| <img src="ScreenShots/login (2).jpeg" width="250"/> | <img src="ScreenShots/register.jpeg" width="250"/> | <img src="ScreenShots/inventory.jpeg" width="250"/> |
+| <img src="ScreenShots/login (2).jpeg" width="200"/> | <img src="ScreenShots/register.jpeg" width="200"/> | <img src="ScreenShots/inventory.jpeg" width="200"/> |
 
 | Mostused screen | Add Inventory | Invoice Screen |
 |-----------|---------|----------|
-| <img src="ScreenShots/mostused.jpeg" width="250"/> | <img src="ScreenShots/add (2).jpeg" width="250"/> | <img src="ScreenShots/invoice.jpeg" width="250"/> |
+| <img src="ScreenShots/mostused.jpeg" width="200"/> | <img src="ScreenShots/add (2).jpeg" width="200"/> | <img src="ScreenShots/invoice.jpeg" width="200"/> |
 
-| Generate invoice | Sales | Help |
-|--------------|---------------|------|
-| <img src="ScreenShots/generateinvoice.jpeg" width="250"/> | <img src="ScreenShots/sales.jpeg" width="250"/> |
+| Generate invoice | Sales | 
+|--------------|---------------|
+| <img src="ScreenShots/generateinvoice.jpeg" width="200"/> | <img src="ScreenShots/sales.jpeg" width="200"/> |
 
 
 ---
@@ -125,14 +125,18 @@ npx expo start
 
 ```
 /src
-  /api         # API calls (fetchInventory, createInvoice)
-  /screens
-    InventoryScreen.js
-    InvoiceScreen.js
-    MostUsedScreen.js
-    AddInventoryScreen.js
-    MonthlySalesScreen.js
-  App.js
+/api # API calls (fetchInventory, createInvoice)
+/screens # App screens
+InventoryScreen.js
+InvoiceScreen.js
+MostUsedScreen.js
+AddInventoryScreen.js
+MonthlySalesScreen.js
+App.js
+/inventory_backend
+/models # Database models (e.g., Inventory, Invoice)
+/routes # API route handlers
+server.js # Backend entry point
 ```
 
 ---
@@ -142,7 +146,7 @@ npx expo start
 - 📄 PDF invoice export.
 - ☁️ Cloud sync for multi-branch pharmacies.
 - 🔔 Low-stock alerts via push notifications.
--    More interactive UI
+- 🖥️ **Enhanced UI** — a more intuitive and interactive user experience.
 
 ---
 
