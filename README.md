@@ -71,15 +71,15 @@ This project was designed with **real pharmacy workflows** in mind:
 
 | Login Screen | Register Invoice | Inventory Display |
 |--------------|------------------|-------------------|
-| <img src="ScreenShots/login (2).jpeg" width="200"/> | <img src="ScreenShots/register.jpeg" width="200"/> | <img src="ScreenShots/inventory.jpeg" width="200"/> |
+| <img src="ScreenShots/login (2).jpeg" width="150"/> | <img src="ScreenShots/register.jpeg" width="150"/> | <img src="ScreenShots/inventory.jpeg" width="150"/> |
 
 | Mostused screen | Add Inventory | Invoice Screen |
 |-----------|---------|----------|
-| <img src="ScreenShots/mostused.jpeg" width="200"/> | <img src="ScreenShots/add (2).jpeg" width="200"/> | <img src="ScreenShots/invoice.jpeg" width="200"/> |
+| <img src="ScreenShots/mostused.jpeg" width="150"/> | <img src="ScreenShots/add (2).jpeg" width="150"/> | <img src="ScreenShots/invoice.jpeg" width="150"/> |
 
 | Generate invoice | Sales | 
 |--------------|---------------|
-| <img src="ScreenShots/generateinvoice.jpeg" width="200"/> | <img src="ScreenShots/sales.jpeg" width="200"/> |
+| <img src="ScreenShots/generateinvoice.jpeg" width="150"/> | <img src="ScreenShots/sales.jpeg" width="150"/> |
 
 
 ---
@@ -127,11 +127,11 @@ npx expo start
 /src
 /api # API calls (fetchInventory, createInvoice)
 /screens # App screens
-InventoryScreen.js
-InvoiceScreen.js
-MostUsedScreen.js
-AddInventoryScreen.js
-MonthlySalesScreen.js
+   InventoryScreen.js
+   InvoiceScreen.js
+   MostUsedScreen.js
+   AddInventoryScreen.js
+   MonthlySalesScreen.js
 App.js
 /inventory_backend
 /models # Database models (e.g., Inventory, Invoice)
