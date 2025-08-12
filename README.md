@@ -71,7 +71,7 @@ This project was designed with **real pharmacy workflows** in mind:
 
 | Login Screen | Register Invoice | Inventory Display |
 |------------------|------------------|-----------------|
-| ![Inventory](ScreenShots/login.png) | ![InvoiceForm](ScreenShots/register.png) | ![InvoiceResult](ScreenShots/inventory.png) |
+| ![Inventory](ScreenShots/login.jpeg) | ![InvoiceForm](ScreenShots/register.jpeg) | ![InvoiceResult](ScreenShots/inventory.jpeg) |
 
 ---
 
