@@ -71,15 +71,15 @@ This project was designed with **real pharmacy workflows** in mind:
 
 | Login Screen | Register Invoice | Inventory Display |
 |--------------|------------------|-------------------|
-| <img src="ScreenShots/login (2).jpeg" width="150"/> | <img src="ScreenShots/register.jpeg" width="150"/> | <img src="ScreenShots/inventory.jpeg" width="150"/> |
+| <img src="ScreenShots/login (2).jpeg" width="250"/> | <img src="ScreenShots/register.jpeg" width="250"/> | <img src="ScreenShots/inventory.jpeg" width="250"/> |
 
 | Mostused screen | Add Inventory | Invoice Screen |
 |-----------|---------|----------|
-| <img src="ScreenShots/mostused.jpeg" width="150"/> | <img src="ScreenShots/add (2).jpeg" width="150"/> | <img src="ScreenShots/invoice.jpeg" width="150"/> |
+| <img src="ScreenShots/mostused.jpeg" width="250"/> | <img src="ScreenShots/add (2).jpeg" width="250"/> | <img src="ScreenShots/invoice.jpeg" width="250"/> |
 
 | Generate invoice | Sales | 
 |--------------|---------------|
-| <img src="ScreenShots/generateinvoice.jpeg" width="150"/> | <img src="ScreenShots/sales.jpeg" width="150"/> |
+| <img src="ScreenShots/generateinvoice.jpeg" width="250"/> | <img src="ScreenShots/sales.jpeg" width="250"/> |
 
 
 ---
