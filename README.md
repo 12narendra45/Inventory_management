@@ -62,16 +62,25 @@ This project was designed with **real pharmacy workflows** in mind:
 3. **Scalable Architecture** — API-driven, so backend can grow independently.
 4. **Offline-Ready Potential** — Can be extended to work offline for rural pharmacies.
 5. **Clean Code for Maintainability** — Each screen has single responsibility and reusable API calls.
+6. **Backend**-Used mongoose for data handling like user data, inventory data, invoices--Most focus on frontend and prototype
 
 ---
 
-## 🖼 Screenshots
 
-> Replace these placeholders with actual screenshots.
+## 📸 Screenshots
 
 | Login Screen | Register Invoice | Inventory Display |
-|------------------|------------------|-----------------|
-| ![Inventory](ScreenShots/login.jpeg) | ![InvoiceForm](ScreenShots/register.jpeg) | ![InvoiceResult](ScreenShots/inventory.jpeg) |
+|--------------|------------------|-------------------|
+| <img src="ScreenShots/login.jpeg" width="250"/> | <img src="ScreenShots/register.jpeg" width="250"/> | <img src="ScreenShots/inventory.jpeg" width="250"/> |
+
+| Mostused screen | Add Inventory | Invoice Screen |
+|-----------|---------|----------|
+| <img src="ScreenShots/mostused.jpeg" width="250"/> | <img src="ScreenShots/add(2).jpeg" width="250"/> | <img src="ScreenShots/invoice.jpeg" width="250"/> |
+
+| Generate invoice | Sales | Help |
+|--------------|---------------|------|
+| <img src="ScreenShots/generateinvoice.jpeg" width="250"/> | <img src="ScreenShots/sales.jpeg" width="250"/> |
+
 
 ---
 
@@ -90,22 +99,23 @@ flowchart TD
 
 ## 📦 Installation
 
+After cloning the repository, make sure to update the **`BASE_URL`** in `api.js`.  
+By default, it contains my system’s IPv4 address — this may prevent the backend from connecting on your machine.  
+Either run the backend locally or replace it with **your own system’s IPv4 address**.
+
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pharmacy-inventory.git
+git clone https://github.com/yourusername/inventory-management.git
 
-# Navigate into the folder
-cd pharmacy-inventory
+# Navigate into the project folder
+cd inventory_management
 
 # Install dependencies
 npm install
-# or
-yarn install
 
 # Start the app
-npm start
-# or
-yarn start
+npx expo start
+
 ```
 
 ---
@@ -127,10 +137,11 @@ yarn start
 ---
 
 ## 🔮 Future Enhancements
-- 📊 Interactive charts for sales & stock trends.
+- 📊 More Interactive charts for sales & stock trends.
 - 📄 PDF invoice export.
 - ☁️ Cloud sync for multi-branch pharmacies.
 - 🔔 Low-stock alerts via push notifications.
+-    More interactive UI
 
 ---
 
