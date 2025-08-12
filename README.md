@@ -71,11 +71,11 @@ This project was designed with **real pharmacy workflows** in mind:
 
 | Login Screen | Register Invoice | Inventory Display |
 |--------------|------------------|-------------------|
-| <img src="ScreenShots/login.jpeg" width="250"/> | <img src="ScreenShots/register.jpeg" width="250"/> | <img src="ScreenShots/inventory.jpeg" width="250"/> |
+| <img src="ScreenShots/login (2).jpeg" width="250"/> | <img src="ScreenShots/register.jpeg" width="250"/> | <img src="ScreenShots/inventory.jpeg" width="250"/> |
 
 | Mostused screen | Add Inventory | Invoice Screen |
 |-----------|---------|----------|
-| <img src="ScreenShots/mostused.jpeg" width="250"/> | <img src="ScreenShots/add(2).jpeg" width="250"/> | <img src="ScreenShots/invoice.jpeg" width="250"/> |
+| <img src="ScreenShots/mostused.jpeg" width="250"/> | <img src="ScreenShots/add (2).jpeg" width="250"/> | <img src="ScreenShots/invoice.jpeg" width="250"/> |
 
 | Generate invoice | Sales | Help |
 |--------------|---------------|------|
@@ -102,6 +102,7 @@ flowchart TD
 After cloning the repository, make sure to update the **`BASE_URL`** in `api.js`.  
 By default, it contains my system’s IPv4 address — this may prevent the backend from connecting on your machine.  
 Either run the backend locally or replace it with **your own system’s IPv4 address**.
+If backend is not connected then you can't explore the remaining screens other then login and registerations screens
 
 ```bash
 # Clone the repository
